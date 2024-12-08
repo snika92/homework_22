@@ -1,0 +1,83 @@
+[
+{
+    "model": "catalog.category",
+    "pk": 3,
+    "fields": {
+        "title": "Игрушки",
+        "description": null
+    }
+},
+{
+    "model": "catalog.category",
+    "pk": 4,
+    "fields": {
+        "title": "Инструменты",
+        "description": null
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 4,
+    "fields": {
+        "title": "Мяч",
+        "description": "Для футбола",
+        "image": "",
+        "category": 3,
+        "price": 100.0,
+        "created_at": "2024-12-08T12:54:48.072Z",
+        "updated_at": "2024-12-08T12:54:48.072Z"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 5,
+    "fields": {
+        "title": "Шуроповерт",
+        "description": "Усовершенствованная модель",
+        "image": "",
+        "category": 4,
+        "price": 6000.5,
+        "created_at": "2024-12-08T12:55:35.954Z",
+        "updated_at": "2024-12-08T13:05:58.425Z"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 6,
+    "fields": {
+        "title": "Отвертка",
+        "description": "С несколькими насадками",
+        "image": "",
+        "category": 4,
+        "price": 500.0,
+        "created_at": "2024-12-08T12:56:00.735Z",
+        "updated_at": "2024-12-08T12:56:00.735Z"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 7,
+    "fields": {
+        "title": "Машинка",
+        "description": "На пульте управления",
+        "image": "",
+        "category": 3,
+        "price": 200.0,
+        "created_at": "2024-12-08T12:56:00.735Z",
+        "updated_at": "2024-12-08T12:56:00.735Z"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 8,
+    "fields": {
+        "title": "Молоток",
+        "description": "С эргономичной ручкой",
+        "image": "",
+        "category": 4,
+        "price": 250.0,
+        "created_at": "2024-12-08T12:56:00.735Z",
+        "updated_at": "2024-12-08T12:56:00.735Z"
+    }
+}
+]
