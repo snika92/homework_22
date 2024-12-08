@@ -30,3 +30,16 @@ class Product(models.Model):
         verbose_name = 'Продукт'
         verbose_name_plural = 'Продукты'
         ordering = ['title']
+
+
+class Address(models.Model):
+    country = models.CharField(max_length=50, verbose_name='Страна')
+    INN = models.IntegerField(verbose_name='ИНН')
+    address = models.TextField(verbose_name='Адрес')
+
+    def __str__(self):
+        return f'{self.country}, {self.INN}, {self.address}'
+
+    class Meta:
+        verbose_name = 'Адрес'
+        verbose_name_plural = 'Адреса'
