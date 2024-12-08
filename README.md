@@ -8,7 +8,7 @@
 
 1. Клонируйте репозиторий:
 ```
-git clone https://github.com/
+git clone https://github.com/snika92/homework_22.git
 ```
 
 2. Установите зависимости:
@@ -27,7 +27,8 @@ python manage.py runserver
 ```
 ## Использование:
 
-1. 
+1. Заполните базу данных командой:
+   python manage.py add_products
 
 ## Документация:
 
