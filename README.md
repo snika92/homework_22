@@ -21,14 +21,16 @@ poetry install
 python manage.py migrate
 ```
 
-4. Запустите локальный сервер:
+4. Заполните базу данных командой:
+```
+python manage.py add_products
+```
+
+5. Запустите локальный сервер:
 ```
 python manage.py runserver
 ```
 ## Использование:
-
-1. Заполните базу данных командой:
-   python manage.py add_products
 
 ## Документация:
 
